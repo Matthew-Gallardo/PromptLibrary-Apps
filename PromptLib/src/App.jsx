@@ -1,27 +1,26 @@
 import React from 'react';
-import {
-  BrowserRouter,
-  Routes,
-  Route,
-} from "react-router-dom";
-import './App.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; // Import BrowserRouter as Router
+
 import Home from './pages/home';
-import Trips from './pages/trips';
 import Recipe from './pages/recipe';
 import Translate from './pages/translate';
+import Trips from './pages/trips';
+
+import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <BrowserRouter>
+    <Router> {/* Wrap your entire application with a Router */}
+      <div className="App">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/trips" element={<Trips />} />
           <Route path="/recipe" element={<Recipe />} />
+          <Route path="/trips" element={<Trips />} />
           <Route path="/translate" element={<Translate />} />
+
         </Routes>
-      </BrowserRouter>
-    </div>
+      </div>
+    </Router>
   );
 }
 
