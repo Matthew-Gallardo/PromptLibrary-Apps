@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Matthew-Gallardo/PromptLibrary-Apps/issues"
   },
-  "homepage": "https://github.com/Matthew-Gallardo/PromptLibrary-Apps#readme"
+  "homepage": "https://github.com/Matthew-Gallardo/PromptLibrary-Apps#readme",
+  "dependencies": {
+    "react-router-dom": "^6.15.0"
+  }
 }
