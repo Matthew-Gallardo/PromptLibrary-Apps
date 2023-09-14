@@ -75,7 +75,8 @@
     transition: 0.3s;
     border: 1px solid #1d39c4;
     padding: 0 20px; /* Added padding to create space for the arrow */
-  }
+    text-decoration: none;
+  } 
   
   .card .btn::after {
   

@@ -1,0 +1,156 @@
+/* Navbar.css */
+/* Add these CSS rules to align text and placeholders on the left */
+
+.navbar {
+  background-color: #fff;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align children to the left */
+}
+
+/* Center the logo horizontally */
+.navbar-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: left; /* Align the logo text to the left */
+}
+
+.search {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 200px;
+  text-align: left; /* Align the search box text to the left */
+}
+
+/* Align the instruction text to the left */
+.instruction {
+  text-align: left; /* Align the instruction text to the left */
+  padding: 20px;
+  max-width: 1000px;
+  color: #0b0b0c;
+  margin-left:100px;
+}
+
+/* Keep the divider full width */
+.divider {
+  width: 100%;
+  border: none;
+  border-top: 1px solid #ccc; /* Horizontal line */
+}
+.start-using {
+  text-align: left; /* Align "Start Using" text to the left */
+  margin-left: 100px; /* Adjust margin as needed */
+}
+
+.start-using a {
+  text-decoration: none; /* Remove text decoration */
+  color: #0b0b0c; /* Set the text color */
+  transition: box-shadow 0.3s ease; /* Add transition for the box-shadow property */
+}
+
+.start-using a:hover {
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+}
+
+
+
+  /* Card.css */
+  .card,
+  .travel-card {
+    width: 100%; 
+    max-width: 540px; 
+    height: auto; 
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px auto; /* Center horizontally */
+    background-color: #fff;
+    border-radius: 4px;
+
+  }
+  
+  
+
+.card-header {
+  margin-bottom: 10px;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card-subtitle {
+  font-size: 14px;
+  color: #888;
+}
+
+.card-item {
+  margin-bottom: 10px;
+}
+
+.item-label {
+  font-size: 16px;
+}
+
+.item-input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.perform-button {
+  padding: 10px 20px;
+  background-color: #232324;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.perform-button:hover {
+  background-color: #5c5c5f;
+}
+
+/* TravelCard.css */
+
+
+.travel-card {
+  
+  text-align: center; /* Center the content horizontally */
+  box-shadow: 10px 0px 10px 0px black; /* Solid black drop shadow to the right */
+}
+
+
+
+
+
+.travel-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.travel-description {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 20px;
+}
+
+.lorem-ipsum {
+  font-size: 16px;
+}
+
+/* Add any additional styling as needed */

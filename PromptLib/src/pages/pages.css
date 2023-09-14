@@ -1,0 +1,27 @@
+/* pages.css */
+/* CSS Reset */
+
+  /* pages.css */
+/* CSS Reset */
+body {
+    background-color: #f0f0f0; /* Use a slightly darker shade of white */
+    margin: 0; /* Remove default margin to ensure full coverage */
+    padding: 0; /* Remove default padding */
+  }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Rest of your styles */
+
+  
+  .centered-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Add any other global styles here */
+  

@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; // Import BrowserRouter as Router
+import { BrowserRouter, Routes, Route } from 'react-router-dom'; // Import BrowserRouter as Router
 
 import Home from './pages/home';
 import Recipe from './pages/recipe';
@@ -10,18 +10,25 @@ import './App.css';
 
 function App() {
   return (
-    <Router> {/* Wrap your entire application with a Router */}
-      <div className="App">
+    <BrowserRouter> {/* Wrap your entire application with a Router */}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/recipe" element={<Recipe />} />
           <Route path="/trips" element={<Trips />} />
           <Route path="/translate" element={<Translate />} />
-
+          <Route path="*" element={<NotFound />} />
         </Routes>
-      </div>
-    </Router>
+    </BrowserRouter>
   );
 }
+const NotFound = () => {
+  return (
+    <div>
+      <h1>404 Not Found</h1>
+      <p>The requested page could not be found.</p>
+    </div>
+  );
+};
+
 
 export default App;
