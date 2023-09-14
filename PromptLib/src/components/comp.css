@@ -213,7 +213,7 @@
 /* Right card */
 
 .travel-card {
-  text-align: center; /* Center the content horizontally */
+  text-align: left; /* Center the content horizontally */
   box-shadow: 10px 0px 10px 0px black; /* Solid black drop shadow to the right */
 }
 

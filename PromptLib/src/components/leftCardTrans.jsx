@@ -2,31 +2,55 @@ import React from 'react';
 import './comp.css'; // Import your CSS file
 
 const Card = () => {
- return (
+  // Array of languages from A to Z
+  const languages = [
+    'Afrikaans',
+    'Albanian',
+    'Amharic',
+    'Arabic',
+    'Armenian',
+    'Azerbaijani',
+    'Basque',
+    'Belarusian',
+    'Bengali',
+    'Bosnian',
+    'Bulgarian',
+    'Catalan',
+    'Cebuano',
+    'Chichewa',
+    'Chinese',
+    'Corsican',
+    
+  ];
+
+  return (
     <div className="card">
       <div className="card-header">
-      <div className="card-title">Text to translate</div>
-          <div className="card-subtitle">Translate one language to another</div>
+        <div className="card-title">Entry Text</div>
+        <div className="card-subtitle">Translate text from one language to another</div>
       </div>
       <div className="card-item">
         <div className="item-label">Text to translate</div>
         <input
           type="text"
           className="item-input"
-          placeholder="PLACEHOLDER FOR text"
+          placeholder="Input Text to translate"
         />
       </div>
       <div className="card-item">
-        <div className="item-label">LANGUAGE TO TRANSLATE TO:</div>
+        <div className="item-label">Language to Translate to:</div>
         <select className="item-input">
           {/* Add dropdown menu options for languages */}
-          <option value="english">English</option>
-          <option value="spanish">Spanish</option>
-          {/* Add more languages as needed */}
+          {languages.map((language) => (
+            <option key={language} value={language}>
+              {language}
+            </option>
+          ))}
         </select>
       </div>
-      <button className="perform-button">Perform Translation</button>
+      <button className="perform-button">Perform Request</button>
     </div>
   );
 };
+
 export default Card;
