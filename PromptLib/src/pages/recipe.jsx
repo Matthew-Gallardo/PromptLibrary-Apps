@@ -1,8 +1,8 @@
 import React from 'react';
-import Navbar from '../components/navbar';
+import Navbar from '../components/navRecipe';
 import './pages.css';
-import EntryCard from '../components/entryCard';
-import RightCard from '../components/rightCard';
+import EntryCard from '../components/leftCardRecipe';
+import RightCard from '../components/rightCardRecipe';
 
 function Recipe() {
   return (

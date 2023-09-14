@@ -6,7 +6,8 @@ function Home() {
   const [cards] = useState([
     {
       title: "TeacherAI",
-      text: `Your fourth card content goes here. You can add more text to test the button positioning.`,
+      text: `Your all-in-one learning partner, offering a seamless fusion of written inquiries and interactive text-to-speech outputs, for an enhanced and effortless learning journey.
+      `,
       route: "teacherai",
     },
     {

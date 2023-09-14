@@ -50,7 +50,7 @@
   }
   
   .card:hover {
-    border-color: #1d39c4;
+    
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add this line for the shadow on hover */
   }
   .card h3 {

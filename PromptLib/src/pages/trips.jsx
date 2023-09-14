@@ -1,11 +1,19 @@
 import React from 'react';
+import Navbar from '../components/navTrips';
+import './pages.css';
+import EntryCard from '../components/leftCardTrips';
+import RightCard from '../components/rightCardTrips';
 
-const Trips = () => {
-    return (
-        <div>
-            <h1>TRIPS</h1>
-        </div>
-    )
+function Trips() {
+  return (
+    <div className="recipe-page">
+      <Navbar />
+      <div className="centered-cards">
+        <EntryCard />
+        <RightCard />
+      </div>
+    </div>
+  );
 }
 
 export default Trips;

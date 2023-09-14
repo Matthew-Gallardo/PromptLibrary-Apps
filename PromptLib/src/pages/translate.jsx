@@ -1,11 +1,19 @@
-import React from 'react'
+import React from 'react';
+import Navbar from '../components/navTrans';
+import './pages.css';
+import EntryCard from '../components/leftCardTrans';
+import RightCard from '../components/rightCardTrans';
 
-function translate() {
+function Trips() {
   return (
-    <div>
-            <h1>Translate</h1>
-        </div>
-  )
+    <div className="recipe-page">
+      <Navbar />
+      <div className="centered-cards">
+        <EntryCard />
+        <RightCard />
+      </div>
+    </div>
+  );
 }
 
-export default translate
+export default Trips;
