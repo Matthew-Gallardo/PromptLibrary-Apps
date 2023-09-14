@@ -1,16 +1,55 @@
-/* Navbar.css */
-/* Add these CSS rules to align text and placeholders on the left */
+
+/* Color themes */
+.navbar,
+.card,
+.travel-card {
+  background-color: #202123;
+}
+
+/* Text themes in navbar*/
+.logo,
+.instruction,
+.start-using a {
+  color: white;
+}
+
+/* Text themes in left and right card*/
+.card-title,
+.card-item,
+.travel-title,
+.lorem-ipsum {
+  color: #B4D9E3;
+}
+.card-subtitle,
+.travel-description {
+color: #9A9BA0;
+}
+/* Placeholder Colors */
+.search{
+  background-color: #343541; 
+  color: white;
+}
+
+/* Style the placeholder text color for .item-input */
+.start-using,
+.perform-button{
+ background-color:#343541 ;
+}
+
+
+
+
 
 .navbar {
-  background-color: #fff;
+
   height: 40vh;
   display: flex;
   flex-direction: column;
-  align-items: flex-start; /* Align children to the left */
+  align-items: flex-start; 
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-/* Center the logo horizontally */
+
 .navbar-content {
   display: flex;
   justify-content: space-between;
@@ -34,7 +73,7 @@
   margin-right: 10px; /* Add margin for spacing between logo and search */
   text-align: left; /* Align the logo text to the left */
   text-decoration: none;
-  color: #0b0b0c;
+  
   
 }
 
@@ -51,7 +90,6 @@
   text-align: left; /* Align the instruction text to the left */
   padding: 20px;
   max-width: 1000px;
-  color: #0b0b0c;
   margin-left:100px;
   font-size: larger;
 }
@@ -76,7 +114,7 @@
 
 .start-using a {
   text-decoration: none; 
-  color: #0b0b0c; /* Set the text color */
+ 
   transition: box-shadow 0.3s ease; /* Add transition for the box-shadow property */
 }
 
@@ -85,7 +123,7 @@
 }
 
 
-  /* Card.css */
+  /* left card*/
   .card,
   .travel-card {
     width: 200%; 
@@ -94,7 +132,7 @@
     border: 1px solid #ccc;
     padding: 20px;
     margin: 20px auto; /* Center horizontally */
-    background-color: #fff;
+   
     border-radius: 4px;
 
   }
@@ -112,7 +150,7 @@
 
 .card-subtitle {
   font-size: 14px;
-  color: #888;
+ 
 }
 
 .card-item {
@@ -121,6 +159,7 @@
 
 .item-label {
   font-size: 16px;
+  
 }
 
 .item-input {
@@ -132,7 +171,6 @@
 
 .perform-button {
   padding: 10px 20px;
-  background-color: #232324;
   color: #fff;
   border: none;
   border-radius: 4px;
@@ -144,13 +182,14 @@
   background-color: #5c5c5f;
 }
 
-/* TravelCard.css */
+/* Right card */
 
 
 .travel-card {
   
   text-align: center; /* Center the content horizontally */
   box-shadow: 10px 0px 10px 0px black; /* Solid black drop shadow to the right */
+ 
 }
 
 
@@ -160,16 +199,17 @@
 .travel-title {
   font-size: 24px;
   font-weight: bold;
+
 }
 
 .travel-description {
   font-size: 14px;
-  color: #888;
   margin-bottom: 20px;
 }
 
 .lorem-ipsum {
   font-size: 16px;
+  
 }
 
 /* Add any additional styling as needed */

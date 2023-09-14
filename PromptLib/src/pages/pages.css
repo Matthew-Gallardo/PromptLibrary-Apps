@@ -1,13 +1,9 @@
-/* pages.css */
-/* CSS Reset */
 
-  /* pages.css */
-/* CSS Reset */
 body {
-    background-color: #f0f0f0; /* Use a slightly darker shade of white */
-    margin: 0; /* Remove default margin to ensure full coverage */
-    padding: 0; /* Remove default padding */
-  }
+    background-color: #343541; 
+    margin: 0; 
+    padding: 0; 
+}
 * {
     margin: 0;
     padding: 0;

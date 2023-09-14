@@ -10,19 +10,23 @@ const Card = () => {
       </div>
       <div className="card-item">
         <div className="item-label">Place to visit</div>
-        <input
-          type="text"
-          className="item-input"
-          placeholder="Place to visit"
-        />
+        <div className="placeholder-container">
+          <input
+            type="text"
+            className="item-input"
+            placeholder="Place to visit"
+          />
+        </div>
       </div>
       <div className="card-item">
         <div className="item-label">Number of days</div>
-        <input
-          type="text"
-          className="item-input"
-          placeholder="Number of days "
-        />
+        <div className="placeholder-container">
+          <input
+            type="text"
+            className="item-input"
+            placeholder="Number of days"
+          />
+        </div>
       </div>
       <button className="perform-button">Perform Request</button>
     </div>

@@ -35,8 +35,8 @@ function Home() {
           <h1>AI Pro</h1>
           <div className="cards">
             {cards.map((card, i) => (
-              <div key={i} className="card">
-                <div className="card-content">
+              <div key={i} className="xcard">
+                <div className="xcard-content">
                   <h3>{card.title}</h3>
                   <p>{card.text}</p>
                 </div>

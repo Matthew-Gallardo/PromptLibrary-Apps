@@ -36,7 +36,7 @@
     gap: 20px; /* Add gap between cards */
   }
   
-  .card {
+  .xcard {
     flex: 0 0 calc(25% - 20px); /* Change the width calculation for 4 cards in a row */
     max-width: calc(25% - 20px); /* Change the max-width calculation */
     width: 100%;
@@ -49,16 +49,16 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
   
-  .card:hover {
+  .xcard:hover {
     
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add this line for the shadow on hover */
   }
-  .card h3 {
+  .xcard h3 {
     font-size: 24px;
     color: #000000;
     margin-bottom: 20px;
   }
-  .card .btn {
+  .xcard .btn {
     display: flex;
     justify-content: space-between; /* Added to create space for the arrow */
     align-items: center;
@@ -78,14 +78,14 @@
     text-decoration: none;
   } 
   
-  .card .btn::after {
+  .xcard .btn::after {
   
     font-weight: bold;
     background: #87b5e5;
     
   }
   
-  .card .btn:hover {
+  .xcard .btn:hover {
     color: #1d39c4;
     background: transparent;
   }
