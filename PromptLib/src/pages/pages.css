@@ -1,23 +1,50 @@
-/*#343541 */
-body {
-    background-color: #F6F1F1; 
-    margin: 0; 
-    padding: 0; 
+/* Recipe Page */
+.recipe-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #F6F1F1;
+  margin: 0;
+  padding: 0;
 }
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  /* Rest of your styles */
 
-  
-  .centered-cards {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  /* Add any other global styles here */
-  
+/* Navbar Styles */
+.navbar {
+  background-color: #F5F8FA; /* Adjust the background color of the Navbar */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.navbar-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Rest of your Navbar styles */
+
+/* Content Layout */
+.content {
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  max-width: 1200px;
+  width: 100%;
+  margin: 20px auto; /* Center content vertically */
+}
+
+.left-section,
+.right-section {
+  flex: 1;
+}
+
+.centered-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

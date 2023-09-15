@@ -20,7 +20,6 @@ const Card = () => {
     'Chichewa',
     'Chinese',
     'Corsican',
-    
   ];
 
   return (
@@ -30,11 +29,11 @@ const Card = () => {
         <div className="card-subtitle">Translate text from one language to another</div>
       </div>
       <div className="card-item">
-        <div className="item-label">Text to translate</div>
-        <input
-          type="text"
+        <div className="item-label">Text to Translate</div>
+        <textarea
           className="item-input"
-          placeholder="Input Text to translate"
+          placeholder="Enter Text to Translate"
+          rows="4" 
         />
       </div>
       <div className="card-item">
