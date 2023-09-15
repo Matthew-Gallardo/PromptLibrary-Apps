@@ -255,12 +255,13 @@
 
 /* Right card */
 
-.travel-card {
+
+.travel-card3 {
   display: flex;
   padding: 20px;
-  box-shadow: 15px -14px 0px -6px #6d8655;
-  -webkit-box-shadow: 15px -14px 0px -6px #6d8655;
-  -moz-box-shadow: 15px -14px 0px -6px #6d8655;
+  box-shadow: 15px -14px 0px -6px #9A3B3B;
+  -webkit-box-shadow: 15px -14px 0px -6px #9A3B3B;
+  -moz-box-shadow: 15px -14px 0px -6px #9A3B3B;
 }
 
 .recipe-icon {

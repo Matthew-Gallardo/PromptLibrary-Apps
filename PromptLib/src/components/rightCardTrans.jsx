@@ -4,7 +4,7 @@ import Icon from '../assets/icons8-language-24.png';
 
 const RightCard = () => {
   return (
-    <div className="travel-card2">
+    <div className="travel-card3">
       <div className="recipe-icon">
         <img
           src={Icon}

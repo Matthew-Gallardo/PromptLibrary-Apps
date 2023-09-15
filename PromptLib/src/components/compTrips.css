@@ -262,12 +262,12 @@
 
 
 /* Right card */
-.travel-card2 {
+.travel-card1 {
   display: flex;
   padding: 20px;
-  box-shadow: 15px -14px 0px -6px #6d8655;
-  -webkit-box-shadow: 15px -14px 0px -6px #6d8655;
-  -moz-box-shadow: 15px -14px 0px -6px #6d8655;
+  box-shadow: 15px -14px 0px -6px #146C94;
+  -webkit-box-shadow: 15px -14px 0px -6px #146C94;
+  -moz-box-shadow: 15px -14px 0px -6px #146C94;
 }
 
 .recipe-icon {

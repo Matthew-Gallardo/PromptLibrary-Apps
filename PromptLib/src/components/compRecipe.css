@@ -259,10 +259,15 @@
 
 
 .travel-card2 {
-  text-align: left; /* Center the content horizontally */
-  box-shadow: 15px -14px 0px -6px  #146C94;
-  -webkit-box-shadow: 15px -14px 0px -6px  #146C94;
-  -moz-box-shadow: 15px -14px 0px -6px  #146C94; /* Solid black drop shadow to the right */
+  display: flex;
+  padding: 20px;
+  box-shadow: 15px -14px 0px -6px #435334;
+  -webkit-box-shadow: 15px -14px 0px -6px #435334;
+  -moz-box-shadow: 15px -14px 0px -6px #435334;
+}
+
+.recipe-icon {
+  margin-right: 20px;
 }
 
 .travel-title {
@@ -278,4 +283,3 @@
 .lorem-ipsum {
   font-size: 16px;
 }
-
