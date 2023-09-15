@@ -68,3 +68,6 @@ button:focus-visible {
   }
 }
 */
+html, body {
+  font-family: Helvetica, Arial, sans-serif;
+}

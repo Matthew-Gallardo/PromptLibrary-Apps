@@ -1,12 +1,12 @@
 
-/* Color themes */
+/* Color themes 
 .navbar,
 .card,
 .travel-card {
   background-color: #202123;
 }
-
-/* Text themes in navbar*/
+*/
+/* Text themes in navbar
 .logo,
 .instruction,
 .start-using a ,
@@ -14,8 +14,8 @@
 .lorem-ipsum {
   color: white;
 }
-
-/* Text themes in left and right card*/
+*/
+/* Text themes in left and right card
 .card-title,
 
 .travel-title,
@@ -26,62 +26,63 @@
 .travel-description {
   color: #9a9ba0;
 }
-
-/* Placeholder Colors*/
+*/
+/* Placeholder Colors
 .search {
   background-color: #343541;
   color: white;
 }
- 
-/* Style the placeholder text color for .item-input */
+*/
+/* Style the placeholder text color for .item-input 
 .start-using,
 .perform-button {
   background-color: #343541;
 }
+*/
 
-
-/* Color themes 
+/* Color themes */
 .navbar,
 .card,
 .travel-card {
-  background-color: #fff;
+  background-color: #f5f8fa;
 }
-*/
-/* Text themes in navbar
+
+/* Text themes in navbar*/
 .logo,
 .instruction,
 .start-using a {
   color: black;
+ 
 }
-*/
-/* Text themes in left and right card
-.card-title,
-.card-item,
-.travel-title,
-.lorem-ipsum {
-  color: black;
-}
+
+/* Text themes in left and right card*/
+
+.instruction h1{
+  color: #146C94;
+  font-weight: 1000px;
+  
+}.instruction p,
 .card-subtitle,
 .travel-description {
   color: #9a9ba0;
 }
-*/
-/* Placeholder Colors 
+
+/* Placeholder Colors */
 .search {
   background-color: #fff;
   color: black;
 }
-*/
-/* Style the placeholder text color for .item-input 
+
+/* Style the placeholder text color for .item-input */
 
 .perform-button {
   background-color: #343541;
 }
-*/
+
 
 /* Other Styles */
 .navbar {
-  height: 40vh;
+  height: 42vh;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -110,6 +111,24 @@
   margin-right: 10px; /* Add margin for spacing between logo and search */
   text-align: left; /* Align the logo text to the left */
   text-decoration: none;
+}
+.logo-image {
+  width: 50px; /* Adjust the width for the logo */
+  height: 50px; /* Adjust the height for the logo */
+  margin-right: 10px;
+}
+
+.translate-image {
+  width: 30px; 
+  height: 30px; 
+}
+.translation-header {
+  display: flex;
+  align-items: center;
+}
+
+.translation-header h1 {
+  margin-left: 10px; /* Add margin between the image and heading */
 }
 
 .search {
@@ -142,32 +161,56 @@
   margin-top: 12px; /* Push the section to the bottom */
 }
 
-.start-using {
-  text-align: left; 
-  font-size: large;
+
+.instruction .start-using {
+  display: flex; 
 }
 
-.start-using a {
+.instruction .start-using .clickable-div {
+  background-color: #AFD3E2; 
+  padding: 10px 15px; 
+  margin-right: 10px; 
+  margin-top: 10px;
+  border-radius: 4px;
+}
+
+.instruction .start-using .clickable-div a {
+  color: black; /* Text color for the links inside the clickable divs */
   text-decoration: none;
-
 }
 
-.start-using a:hover {
-  box-shadow: 0px 2px 4px rgba(235, 233, 233, 0.2); /* Add shadow on hover */
+.instruction .start-using .clickable-div:hover {
+  background-color: #19A7CE; /* Change the background color on hover */
 }
+
+
+
+
+
+
+
 
 /* left card*/
+.card {
+  -webkit-box-shadow: 0px 0px 20px 0px #19A7CE; 
+  box-shadow: 0px 0px 20px 0px #19A7CE;
+}
+
+
+.card:hover {
+  box-shadow: 0px 2px 4px rgba(3, 3, 3, 0.2)
+}
 .card,
 .travel-card {
   width: 200%;
   max-width: 540px;
   height: auto;
-  /*border: 1px solid #ccc;*/
+  border: 1px solid #c9c9c9;
   padding: 20px;
   margin: 20px auto; /* Center horizontally */
-
-  border-radius: 4px;
+  border-radius: 10px;
 }
+
 
 .card-header {
   margin-bottom: 10px;
@@ -214,7 +257,9 @@
 
 .travel-card {
   text-align: left; /* Center the content horizontally */
-  box-shadow: 10px 0px 10px 0px black; /* Solid black drop shadow to the right */
+  box-shadow: 15px -14px 0px -6px  #146C94;
+  -webkit-box-shadow: 15px -14px 0px -6px  #146C94;
+  -moz-box-shadow: 15px -14px 0px -6px  #146C94; /* Solid black drop shadow to the right */
 }
 
 .travel-title {
