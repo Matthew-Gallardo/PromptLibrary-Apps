@@ -141,13 +141,17 @@
 
 /* Align the instruction text to the left */
 .instruction2 {
-  text-align: left; /* Align the instruction text to the left */
+  display: flex;
+  align-items: center;
   padding: 20px;
   max-width: 1000px;
   margin-left: 100px;
   font-size: larger;
 }
 
+.instruction-icon {
+  margin-right: 20px; /* Adjust the spacing between the icon and text */
+}
 /* Keep the divider full width */
 .divider {
   width: 100%;
@@ -162,24 +166,22 @@
 }
 
 
-.instruction2 .start-using {
+.start-using2 {
   display: flex; 
 }
 
-.instruction2 .start-using .clickable-div {
+ .start-using2 .clickable-div {
   background-color: #CEDEBD; 
   padding: 10px 15px; 
   margin-right: 10px; 
-  margin-top: 10px;
   border-radius: 4px;
 }
-
-.instruction2 .start-using .clickable-div a {
+ .start-using2 .clickable-div a {
   color: black; /* Text color for the links inside the clickable divs */
   text-decoration: none;
 }
 
-.instruction2 .start-using .clickable-div:hover {
+ .start-using2 .clickable-div:hover {
   background-color: #9EB384; /* Change the background color on hover */
 }
 
@@ -255,13 +257,12 @@
   color: black;
 }
 
-/* Right card */
 
 .travel-card2 {
   text-align: left; /* Center the content horizontally */
-  box-shadow: 15px -14px 0px -6px  #6d8655;
-  -webkit-box-shadow: 15px -14px 0px -6px  #6d8655;
-  -moz-box-shadow: 15px -14px 0px -6px  #6d8655; /* Solid black drop shadow to the right */
+  box-shadow: 15px -14px 0px -6px  #146C94;
+  -webkit-box-shadow: 15px -14px 0px -6px  #146C94;
+  -moz-box-shadow: 15px -14px 0px -6px  #146C94; /* Solid black drop shadow to the right */
 }
 
 .travel-title {
@@ -277,5 +278,4 @@
 .lorem-ipsum {
   font-size: 16px;
 }
-
 
