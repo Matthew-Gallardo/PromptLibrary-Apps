@@ -1,9 +1,9 @@
 import React from 'react';
-import './comp.css'; // Import your CSS file
+import './compTrips.css'; // Import your CSS file
 
 const RightCard = () => {
   return (
-    <div className="travel-card">
+    <div className="travel-card1">
       <h2 className="travel-title">Travel</h2>
       <p className="travel-description">
         Please note that the information provided by this travel itinerary tool is

@@ -44,12 +44,12 @@
 .navbar,
 .card,
 .travel-card {
-  background-color: #f5f8fa;
+  background-color: #F6F1F1;
 }
 
 /* Text themes in navbar*/
 .logo,
-.instruction,
+.instruction3,
 .start-using a {
   color: black;
  
@@ -57,11 +57,11 @@
 
 /* Text themes in left and right card*/
 
-.instruction h1{
-  color: #146C94;
+.instruction3 h1{
+  color: #9A3B3B;
   font-weight: 1000px;
   
-}.instruction p,
+}.instruction3 p,
 .card-subtitle,
 .travel-description {
   color: #9a9ba0;
@@ -140,7 +140,7 @@
 }
 
 /* Align the instruction text to the left */
-.instruction {
+.instruction3 {
   text-align: left; /* Align the instruction text to the left */
   padding: 20px;
   max-width: 1000px;
@@ -162,25 +162,25 @@
 }
 
 
-.instruction .start-using {
+.instruction3 .start-using {
   display: flex; 
 }
 
-.instruction .start-using .clickable-div {
-  background-color: #AFD3E2; 
+.instruction3 .start-using .clickable-div {
+  background-color: #f17f7f; 
   padding: 10px 15px; 
   margin-right: 10px; 
   margin-top: 10px;
   border-radius: 4px;
 }
 
-.instruction .start-using .clickable-div a {
+.instruction3 .start-using .clickable-div a {
   color: black; /* Text color for the links inside the clickable divs */
   text-decoration: none;
 }
 
-.instruction .start-using .clickable-div:hover {
-  background-color: #19A7CE; /* Change the background color on hover */
+.instruction3 .start-using .clickable-div:hover {
+  background-color: #A73121; /* Change the background color on hover */
 }
 
 
@@ -192,8 +192,8 @@
 
 /* left card*/
 .card {
-  -webkit-box-shadow: 0px 0px 20px 0px #19A7CE; 
-  box-shadow: 0px 0px 20px 0px #19A7CE;
+  -webkit-box-shadow: 0px 0px 20px 0px #A73121; 
+  box-shadow: 0px 0px 20px 0px #A73121;
 }
 
 
@@ -247,19 +247,21 @@
   border-radius: 4px;
   cursor: pointer;
   font-size: 16px;
+  background-color: #A73121;
 }
 
 .perform-button:hover {
-  background-color: #5c5c5f;
+  background-color: #f17f7f;
+  color: black;
 }
 
 /* Right card */
 
 .travel-card {
   text-align: left; /* Center the content horizontally */
-  box-shadow: 15px -14px 0px -6px  #146C94;
-  -webkit-box-shadow: 15px -14px 0px -6px  #146C94;
-  -moz-box-shadow: 15px -14px 0px -6px  #146C94; /* Solid black drop shadow to the right */
+  box-shadow: 15px -14px 0px -6px  #9A3B3B;
+  -webkit-box-shadow: 15px -14px 0px -6px  #9A3B3B;
+  -moz-box-shadow: 15px -14px 0px -6px  #9A3B3B; /* Solid black drop shadow to the right */
 }
 
 .travel-title {

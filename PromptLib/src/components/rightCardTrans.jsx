@@ -1,5 +1,5 @@
 import React from 'react';
-import './comp.css'; // Import your CSS file
+import './compTrans.css'; // Import your CSS file
 
 const RightCard = () => {
   return (

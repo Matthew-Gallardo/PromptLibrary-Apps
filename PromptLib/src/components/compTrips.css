@@ -1,0 +1,281 @@
+
+/* Color themes 
+.navbar,
+.card,
+.travel-card {
+  background-color: #202123;
+}
+*/
+/* Text themes in navbar
+.logo,
+.instruction,
+.start-using a ,
+.card-item,
+.lorem-ipsum {
+  color: white;
+}
+*/
+/* Text themes in left and right card
+.card-title,
+
+.travel-title,
+.instruction h1{
+  color: #b4d9e3;
+}
+.card-subtitle,
+.travel-description {
+  color: #9a9ba0;
+}
+*/
+/* Placeholder Colors
+.search {
+  background-color: #343541;
+  color: white;
+}
+*/
+/* Style the placeholder text color for .item-input 
+.start-using,
+.perform-button {
+  background-color: #343541;
+}
+*/
+
+/* Color themes */
+.navbar,
+.card,
+.travel-card {
+  background-color: #F6F1F1;
+}
+
+/* Text themes in navbar*/
+.logo,
+.instruction1,
+.start-using a {
+  color: black;
+ 
+}
+
+/* Text themes in left and right card*/
+
+.instruction1 h1{
+  color: #146C94;
+  font-weight: 1000px;
+  
+}.instruction1 p,
+.card-subtitle,
+.travel-description {
+  color: #9a9ba0;
+}
+
+/* Placeholder Colors */
+.search {
+  background-color: #fff;
+  color: black;
+}
+
+/* Style the placeholder text color for .item-input */
+
+.perform-button {
+  background-color: #343541;
+}
+
+
+/* Other Styles */
+.navbar {
+  height: 42vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo-search {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: 10px; /* Add margin for spacing between logo and search */
+  text-align: left; /* Align the logo text to the left */
+  text-decoration: none;
+}
+.logo-image {
+  width: 50px; /* Adjust the width for the logo */
+  height: 50px; /* Adjust the height for the logo */
+  margin-right: 10px;
+}
+
+.translate-image {
+  width: 30px; 
+  height: 30px; 
+}
+.translation-header {
+  display: flex;
+  align-items: center;
+}
+
+.translation-header h1 {
+  margin-left: 10px; /* Add margin between the image and heading */
+}
+
+.search {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 200px;
+  text-align: left;
+}
+
+/* Align the instruction text to the left */
+.instruction1 {
+  text-align: left; /* Align the instruction text to the left */
+  padding: 20px;
+  max-width: 1000px;
+  margin-left: 100px;
+  font-size: larger;
+}
+
+/* Keep the divider full width */
+.divider {
+  width: 100%;
+  border: none;
+  border-top: 1px solid #ccc; /* Horizontal line */
+}
+.bottom-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 12px; /* Push the section to the bottom */
+}
+
+
+.instruction1 .start-using {
+  display: flex; 
+}
+
+.instruction1 .start-using .clickable-div {
+  background-color: #AFD3E2; 
+  padding: 10px 15px; 
+  margin-right: 10px; 
+  margin-top: 10px;
+  border-radius: 4px;
+}
+
+.instruction1 .start-using .clickable-div a {
+  color: black; /* Text color for the links inside the clickable divs */
+  text-decoration: none;
+}
+
+.instruction1 .start-using .clickable-div:hover {
+  background-color: #19A7CE; /* Change the background color on hover */
+}
+
+
+
+
+
+
+
+
+/* left card*/
+.card1 {
+  -webkit-box-shadow: 0px 0px 20px 0px #19A7CE; 
+  box-shadow: 0px 0px 20px 0px #19A7CE;
+}
+
+
+.card1:hover {
+  box-shadow: 0px 2px 4px rgba(3, 3, 3, 0.2)
+}
+.card1,
+.travel-card1 {
+  width: 200%;
+  max-width: 540px;
+  height: auto;
+  border: 1px solid #c9c9c9;
+  padding: 20px;
+  margin: 20px auto; /* Center horizontally */
+  border-radius: 10px;
+}
+
+
+.card-header {
+  margin-bottom: 10px;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card-subtitle {
+  font-size: 14px;
+}
+
+.card-item {
+  margin-bottom: 10px;
+}
+
+.item-label {
+  font-size: 16px;
+}
+
+.item-input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.perform-button1 {
+  padding: 10px 20px;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  background-color: #146C94;
+}
+
+.perform-button1:hover {
+  background-color: #AFD3E2;
+  color: black;
+}
+
+/* Right card */
+
+.travel-card1 {
+  text-align: left; /* Center the content horizontally */
+  box-shadow: 15px -14px 0px -6px  #146C94;
+  -webkit-box-shadow: 15px -14px 0px -6px  #146C94;
+  -moz-box-shadow: 15px -14px 0px -6px  #146C94; /* Solid black drop shadow to the right */
+}
+
+.travel-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.travel-description {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.lorem-ipsum {
+  font-size: 16px;
+}
+
+

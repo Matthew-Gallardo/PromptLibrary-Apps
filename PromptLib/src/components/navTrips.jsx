@@ -1,5 +1,5 @@
 import React from 'react';
-import './comp.css'; // Import your CSS file
+import './compTrips.css'; 
 import { Link } from 'react-router-dom';
 import logoImage from '../assets/tool.png'; // Replace with your logo image
 
@@ -23,7 +23,7 @@ const Navbar = () => {
       </div>
       <hr className="divider" />
       <div className="bottom-section">
-        <div className="instruction">
+        <div className="instruction1">
           <h5>Instruction</h5>
           <h1>TripsAI</h1>
           <p>Roam around the world with your personal AI travel planner.</p>

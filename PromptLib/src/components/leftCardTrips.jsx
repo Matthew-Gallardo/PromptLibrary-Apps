@@ -1,9 +1,9 @@
 import React from 'react';
-import './comp.css'; // Import your CSS file
+import './compTrips.css'; // Import your CSS file
 
 const Card = () => {
   return (
-    <div className="card">
+    <div className="card1">
       <div className="card-header">
         <div className="card-title">Entry Text</div>
         <div className="card-subtitle">Enter a place you want to visit</div>
@@ -28,7 +28,7 @@ const Card = () => {
           />
         </div>
       </div>
-      <button className="perform-button">Perform Request</button>
+      <button className="perform-button1">Perform Request</button>
     </div>
   );
 };

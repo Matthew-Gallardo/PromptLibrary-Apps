@@ -1,11 +1,11 @@
 import React from 'react';
-import './comp.css'; // Import your CSS file
+import './compRecipe.css'; // Import your CSS file
 
 
 
 const Card = () => {
     return (
-      <div className="card">
+      <div className="card2">
         <div className="card-header">
           <div className="card-title">Entry Text</div>
           <div className="card-subtitle">Enter a list of ingredients, with or without quantities, and your personal AI chef will come up with a tailor-made recipe</div>
@@ -18,7 +18,7 @@ const Card = () => {
             placeholder="Chicken thighs, soy sauce, rice, lemongrass, peppers, ginger..."
           />
         </div>
-        <button className="perform-button">Perform Request</button>
+        <button className="perform-button2">Perform Request</button>
       </div>
     );
   };
