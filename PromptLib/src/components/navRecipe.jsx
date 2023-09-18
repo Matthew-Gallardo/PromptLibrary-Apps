@@ -45,7 +45,7 @@ const Navbar = () => {
             <div className="clickable-div">
               <a href="#">Start Using</a>
             </div>
-            <div className="clickable-div">
+            <div className="clickable-div2">
               <a href="#">Example</a>
             </div>
           </div>

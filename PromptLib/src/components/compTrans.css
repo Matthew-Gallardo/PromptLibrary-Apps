@@ -75,9 +75,7 @@
 
 /* Style the placeholder text color for .item-input */
 
-.perform-button {
-  background-color: #343541;
-}
+
 
 
 /* Other Styles */
@@ -185,7 +183,21 @@
 }
 
 
+.start-using3 .clickable-div2 {
 
+  padding: 10px 15px; 
+  margin-right: 10px; 
+  border-radius: 4px;
+}
+
+.start-using3 .clickable-div2 a {
+  color: black; /* Text color for the links inside the clickable divs */
+  text-decoration: none;
+}
+
+ .start-using3 .clickable-div2:hover {
+  background-color: #f17f7f; /* Change the background color on hover */
+}
 
 
 /* left card*/
@@ -250,13 +262,14 @@
 }
 
 .perform-button {
+  background-color: #A73121;
   padding: 10px 20px;
   color: #fff;
   border: none;
   border-radius: 4px;
   cursor: pointer;
   font-size: 16px;
-  background-color: #A73121;
+
 }
 
 .perform-button:hover {

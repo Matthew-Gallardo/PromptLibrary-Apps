@@ -75,9 +75,7 @@
 
 /* Style the placeholder text color for .item-input */
 
-.perform-button {
-  background-color: #343541;
-}
+
 
 
 /* Other Styles */
@@ -170,21 +168,38 @@
   display: flex; 
 }
 
-.start-using1 .clickable-div {
+.start-using1 .clickable-div1 {
   background-color: #AFD3E2; 
   padding: 10px 15px; 
   margin-right: 10px; 
   border-radius: 4px;
 }
 
-.start-using1 .clickable-div a {
+.start-using1 .clickable-div1 a {
   color: black; /* Text color for the links inside the clickable divs */
   text-decoration: none;
 }
 
- .start-using1 .clickable-div:hover {
+ .start-using1 .clickable-div1:hover {
   background-color: #19A7CE; /* Change the background color on hover */
 }
+
+.start-using1 .clickable-div2 {
+
+  padding: 10px 15px; 
+  margin-right: 10px; 
+  border-radius: 4px;
+}
+
+.start-using1 .clickable-div2 a {
+  color: black; /* Text color for the links inside the clickable divs */
+  text-decoration: none;
+}
+
+ .start-using1 .clickable-div2:hover {
+  background-color: #AFD3E2; /* Change the background color on hover */
+}
+
 
 
 
