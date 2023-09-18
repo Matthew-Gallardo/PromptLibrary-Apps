@@ -1,12 +1,24 @@
 import React from 'react';
-import './compTrips.css'; // Import your CSS file
+import './compTrips.css'; 
+import Icon from '../assets/leftTrips.png';
 
 const Card = () => {
   return (
     <div className="card1">
+    <div className='icon-header'>
+        <div className="trips-icon">
+        <img
+          src={Icon}
+          alt="trips-con"
+          className="icon-image"
+          width="45"
+          height="45"
+        />
+      </div>
       <div className="card-header">
         <div className="card-title">Entry Text</div>
         <div className="card-subtitle">Enter a place you want to visit</div>
+      </div>
       </div>
       <div className="card-item">
         <div className="item-label">Place to visit</div>

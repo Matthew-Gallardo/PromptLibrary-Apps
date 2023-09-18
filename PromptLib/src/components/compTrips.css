@@ -198,7 +198,14 @@
   -webkit-box-shadow: 0px 0px 20px 0px #19A7CE; 
   box-shadow: 0px 0px 20px 0px #19A7CE;
 }
+.icon-header {
+  display: flex;
+  padding: 20px;
+}
 
+.trips-icon {
+  margin-right: 10px;
+}
 
 .card1:hover {
   box-shadow: 0px 2px 4px rgba(3, 3, 3, 0.2)
