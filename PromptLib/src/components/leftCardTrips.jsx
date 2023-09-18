@@ -31,15 +31,19 @@ const Card = () => {
         </div>
       </div>
       <div className="card-item">
-        <div className="item-label">Number of days</div>
-        <div className="placeholder-container">
-          <input
-            type="text"
-            className="item-input"
-            placeholder="Number of days"
-          />
-        </div>
+      <div className="item-label">Number of days</div>
+      <div className="placeholder-container">
+        <input
+          type="number"  
+          className="item-input"
+          placeholder="Number of days"
+          min="0"  
+          step="1"  
+        />
       </div>
+    </div>
+
+      
       <button className="perform-button1">Perform Request</button>
     </div>
   );

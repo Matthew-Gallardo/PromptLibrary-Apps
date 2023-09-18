@@ -26,6 +26,7 @@ const Navbar = () => {
       <div className="bottom-section">
         <div className="instruction1">
           <div className="instruction-icon">
+          <Link to="/" className="logo">
             <img
               src={Icon}
               alt="Instruction Icon"
@@ -33,6 +34,7 @@ const Navbar = () => {
               width="50"
               height="50"
             />
+             </Link>
           </div>
           <div className="instruction-text">
             <h5>Instruction</h5>

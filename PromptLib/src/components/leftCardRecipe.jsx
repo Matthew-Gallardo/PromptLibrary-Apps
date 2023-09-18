@@ -16,7 +16,7 @@ const Card = () => {
         />
       </div>
       <div className="card-header">
-        <div className="card-title">Entry Text</div>
+        <div className="card-title">Enter Recipe</div>
         <div className="card-subtitle">
           Enter a list of ingredients, with or without quantities, and your personal AI chef will come up with a tailor-made recipe
         </div>
@@ -30,7 +30,7 @@ const Card = () => {
           rows="4" 
         />
       </div>
-      <button className="perform-button2">Perform Request</button>
+      <button className="perform-button2">Generate Recipe</button>
     </div>
   );
 };

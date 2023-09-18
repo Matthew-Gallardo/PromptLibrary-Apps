@@ -41,14 +41,7 @@ const Card = () => {
         <div className="card-subtitle">Translate text from one language to another</div>
       </div>
       </div>
-      <div className="card-item">
-        <div className="item-label">Text to Translate</div>
-        <textarea
-          className="item-input"
-          placeholder="Enter Text to Translate"
-          rows="4" 
-        />
-      </div>
+    
       <div className="card-item">
         <div className="item-label">Language to Translate to:</div>
         <select className="item-input">
@@ -60,7 +53,15 @@ const Card = () => {
           ))}
         </select>
       </div>
-      <button className="perform-button">Perform Request</button>
+      <div className="card-item">
+        <div className="item-label">Text to Translate</div>
+        <textarea
+          className="item-input"
+          placeholder="Enter Text to Translate"
+          rows="4" 
+        />
+      </div>
+      <button className="perform-button">Genarate Translation</button>
     </div>
   );
 };
