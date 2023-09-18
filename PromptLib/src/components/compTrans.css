@@ -79,8 +79,9 @@
 
 
 /* Other Styles */
-.navbar {
-  height: 42vh;
+.navbar3 {
+  width: 100%;
+  height: 28vh;
   display: flex;
   flex-direction: column;
   align-items: flex-start;

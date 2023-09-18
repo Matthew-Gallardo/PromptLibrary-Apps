@@ -6,26 +6,11 @@ import Icon from '../assets/translate-now-icon.png';
 
 const Navbar = () => {
   return (
-    <div className="navbar">
-      <div className="navbar-content">
-        <div className="logo-search">
-          <img
-            src={logoImage}
-            alt="Logo"
-            className="logo-image"
-            width="100"
-            height="100"
-          />
-          <Link to="/" className="logo">
-            Tools
-          </Link>
-          <div className="search">Search...</div>
-        </div>
-      </div>
-      <hr className="divider" />
+    <div className="navbar3">
       <div className="bottom-section">
         <div className="instruction3">
           <div className="instruction-icon">
+          <Link to="/" className="logo">
             <img
               src={Icon}
               alt="Instruction Icon"
@@ -33,6 +18,7 @@ const Navbar = () => {
               width="50"
               height="50"
             />
+            </Link>
           </div>
           <div className="instruction-text">
             <h5>Writing</h5>

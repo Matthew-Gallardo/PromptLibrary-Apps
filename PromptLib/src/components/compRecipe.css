@@ -41,7 +41,7 @@
 */
 
 /* Color themes */
-.navbar,
+.navbar2,
 .card2,
 .travel-card2 {
   background-color: #ffffff;
@@ -79,8 +79,9 @@
 
 
 /* Other Styles */
-.navbar {
-  height: 42vh;
+.navbar2 {
+  width: 100%;
+  height: 28vh;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
