@@ -43,8 +43,8 @@
 /* Color themes */
 .navbar,
 .card,
-.travel-card {
-  background-color: #F6F1F1;
+.travel-card3 {
+  background-color: #ffffff;
 }
 
 /* Text themes in navbar*/
@@ -64,7 +64,7 @@
 }.instruction3 p,
 .card-subtitle,
 .travel-description {
-  color: #9a9ba0;
+  color: #6B7280;
 }
 
 /* Placeholder Colors */
@@ -196,7 +196,10 @@
 
 .icon-header {
   display: flex;
-  padding: 20px;
+  padding: 8px;
+  align-items: flex-start;
+ 
+
 }
 
 .trips-icon {

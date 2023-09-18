@@ -31,8 +31,8 @@ const Card = () => {
           src={Icon}
           alt="recipe-icon"
           className="icon-image"
-          width="50"
-          height="50"
+          width="45"
+          height="45"
         />
       </div>
     
