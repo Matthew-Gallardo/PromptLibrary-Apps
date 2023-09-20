@@ -1,45 +1,4 @@
 
-/* Color themes 
-.navbar,
-.card,
-.travel-card {
-  background-color: #202123;
-}
-*/
-/* Text themes in navbar
-.logo,
-.instruction,
-.start-using a ,
-.card-item,
-.lorem-ipsum {
-  color: white;
-}
-*/
-/* Text themes in left and right card
-.card-title,
-
-.travel-title,
-.instruction h1{
-  color: #b4d9e3;
-}
-.card-subtitle,
-.travel-description {
-  color: #9a9ba0;
-}
-*/
-/* Placeholder Colors
-.search {
-  background-color: #343541;
-  color: white;
-}
-*/
-/* Style the placeholder text color for .item-input 
-.start-using,
-.perform-button {
-  background-color: #343541;
-}
-*/
-
 /* Color themes */
 .navbar,
 .card1,
